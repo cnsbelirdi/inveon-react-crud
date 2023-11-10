@@ -6,6 +6,6 @@ This project was developed as part of  the Inveon Fullstack Bootcamp. It is desi
 * Bootstrap
 * [Mockapi.io](https://www.mockapi.io) for Backend
 
-I hosted the file by deploying it via [Vercel](https://www.vercel.com). You can review and test it by clicking the link below.
+I hosted the website by deploying it via [Vercel](https://www.vercel.com). You can review and test it by clicking the link below.
 
 [Live Demo](https://inveon-react-crud.vercel.app)
