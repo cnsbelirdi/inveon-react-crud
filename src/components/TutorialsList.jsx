@@ -57,7 +57,6 @@ class TutorialsList extends Component {
   };
 
   deleteTutorial(id) {
-    this.setState({ ...this.state, currentIndex: -1 });
     if (
       id &&
       confirm("Are you sure you want to delete this tutorial?") === true
@@ -65,6 +64,7 @@ class TutorialsList extends Component {
       TutorialService.deleteTutorial(id)
         .then(() => {
           this.getTutorialsList();
+          this.setState({ ...this.state, currentIndex: -1 });
         })
         .catch((error) => console.error(error));
     }
