@@ -1,8 +1,11 @@
-# React + Vite
+# Inveon React Crud Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was developed as part of  the Inveon Fullstack Bootcamp. It is designed to manage and display tutorials, each consisting of a title and a description. The project allows users to add new tutorials, list existing ones, and provides a basic string search filter for easy tutorial retrieval.
 
-Currently, two official plugins are available:
+* React + Vite
+* Bootstrap
+* [Mockapi.io](https://www.mockapi.io) for Backend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I hosted the file by deploying it via [Vercel](https://www.vercel.com). You can review and test it by clicking the link below.
+
+[Live Demo](https://inveon-react-crud.vercel.app)
